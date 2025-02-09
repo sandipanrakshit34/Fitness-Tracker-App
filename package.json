@@ -1,0 +1,32 @@
+{
+  "name": "web-server-project",
+  "version": "1.0.0",
+  "description": "Exercise and Food Intake App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.13",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlinchoffmann/Fitness-Tracker-App.git"
+  },
+  "author": "Kaitlin Hoffmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitlinchoffmann/Fitness-Tracker-App/issues"
+  },
+  "homepage": "https://github.com/kaitlinchoffmann/Fitness-Tracker-App#readme"
+}
